@@ -8,25 +8,35 @@
       VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
       MinHeight="200" MinWidth="500"
       Title="HomePage">
-
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="HomeResources.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+    
     <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
         <WrapPanel>
-            <Button Width="350" Height="350" >
-                <Button.Background>
-                    <ImageBrush ImageSource="Images/BorderlandsVaultSymbol.png" />
-                </Button.Background>
+            <Button Style="{StaticResource HomeGameButton}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Images/BorderlandsVaultSymbol.png" Stretch="Fill"/>
+                </StackPanel>
             </Button>
-            <Button Width="350" Height="350"/>
-            <Button Width="350" Height="350"/>
-            <Button Width="350" Height="350"/>
-            <Button Width="350" Height="350"/>
-            <Button Width="350" Height="350"/>
-            <Button Width="350" Height="350"/>
-            <Button Width="350" Height="350"/>
-            <Button Width="350" Height="350"/>
-            <Button Width="350" Height="350"/>
-            <Button Width="350" Height="350"/>
-            <Button Width="350" Height="350"/>
+            <Button Style="{StaticResource HomeGameButton}"/>
+            <Button Style="{StaticResource HomeGameButton}"/>
+            <Button Style="{StaticResource HomeGameButton}"/>
+            <Button Style="{StaticResource HomeGameButton}"/>
+            <Button Style="{StaticResource HomeGameButton}"/>
+            <Button Style="{StaticResource HomeGameButton}"/>
+            <Button Style="{StaticResource HomeGameButton}"/>
+            <Button Style="{StaticResource HomeGameButton}"/>
+            <Button Style="{StaticResource HomeGameButton}"/>
+            <Button Style="{StaticResource HomeGameButton}"/>
+            <Button Style="{StaticResource HomeGameButton}"/>
+            <Button Style="{StaticResource HomeGameButton}"/>
+            <Button Style="{StaticResource HomeGameButton}"/>
+            <Button Style="{StaticResource HomeGameButton}"/>
         </WrapPanel>
     </Grid>
 </Page>
