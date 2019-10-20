@@ -22,5 +22,10 @@ namespace Game_Utilities
         {
             InitializeComponent();
         }
+
+        private void BorderlandsBtnClick(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new BorderlandsCalcPage());
+        }
     }
 }

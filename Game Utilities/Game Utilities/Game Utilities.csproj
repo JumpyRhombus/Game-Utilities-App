@@ -8,10 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\borderlands-logo.png" />
     <None Remove="Images\BorderlandsVaultSymbol.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\borderlands-logo.png" />
     <Resource Include="Images\BorderlandsVaultSymbol.png" />
   </ItemGroup>
 

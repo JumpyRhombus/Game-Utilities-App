@@ -18,9 +18,9 @@
     
     <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
         <WrapPanel>
-            <Button Style="{StaticResource HomeGameButton}">
+            <Button Name="BorderlandsBtn" Style="{StaticResource HomeGameButton}" Click="BorderlandsBtnClick">
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="Images/BorderlandsVaultSymbol.png" Stretch="Fill"/>
+                    <Image Source="Images\borderlands-logo.png" Stretch="Fill"/>
                 </StackPanel>
             </Button>
             <Button Style="{StaticResource HomeGameButton}"/>

@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:Game_Utilities"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        
     </Application.Resources>
 </Application>
