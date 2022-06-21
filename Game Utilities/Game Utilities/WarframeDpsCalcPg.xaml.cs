@@ -14,23 +14,13 @@ using System.Windows.Shapes;
 namespace Game_Utilities
 {
     /// <summary>
-    /// Interaction logic for HomePage.xaml
+    /// Interaction logic for WarframeDpsCalcPg.xaml
     /// </summary>
-    public partial class HomePage : Page
+    public partial class WarframeDpsCalcPg : Page
     {
-        public HomePage()
+        public WarframeDpsCalcPg()
         {
             InitializeComponent();
-        }
-
-        private void BorderlandsBtnClick(object sender, RoutedEventArgs e)
-        {
-            this.NavigationService.Navigate(new BorderlandsCalcPage());
-        }
-
-        private void WarframeBtnClick(object sender, RoutedEventArgs e)
-        {
-            this.NavigationService.Navigate(new WarframeDpsCalcPg());
         }
     }
 }

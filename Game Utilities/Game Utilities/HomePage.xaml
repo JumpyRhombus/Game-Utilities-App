@@ -23,7 +23,11 @@
                     <Image Source="Images\borderlands-logo.png" Stretch="Fill"/>
                 </StackPanel>
             </Button>
-            <Button Style="{StaticResource HomeGameButton}"/>
+            <Button Name="WarframeBtn" Style="{StaticResource HomeGameButton}" Click="WarframeBtnClick">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Images\warframeIcon.jpg" Stretch="Fill"/>
+                </StackPanel>
+            </Button>
             <Button Style="{StaticResource HomeGameButton}"/>
             <Button Style="{StaticResource HomeGameButton}"/>
             <Button Style="{StaticResource HomeGameButton}"/>

@@ -10,6 +10,7 @@
   <ItemGroup>
     <None Remove="Images\borderlands-logo.png" />
     <None Remove="Images\BorderlandsVaultSymbol.png" />
+	<None Remove="Images\warframeIcon.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +20,7 @@
   <ItemGroup>
     <Resource Include="Images\borderlands-logo.png" />
     <Resource Include="Images\BorderlandsVaultSymbol.png" />
+	<Resource Include="Images\warframeIcon.jpg" />
   </ItemGroup>
 
 </Project>
